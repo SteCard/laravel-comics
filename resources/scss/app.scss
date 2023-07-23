@@ -16,7 +16,7 @@ a {
     text-decoration: none;
 }
 
-li:hover {
+.header-li:hover {
     border-bottom: #0282F9 3px solid;
 
     a {
@@ -89,4 +89,8 @@ h6 {
     text-transform: uppercase;
     color: #fff;
     margin-top: 6px;
+}
+
+.merch-img {
+    width: 20%;
 }
