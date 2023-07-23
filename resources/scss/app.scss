@@ -71,3 +71,22 @@ li:hover {
     background-color: #0282F9;
     padding: 50px 0px;
 }
+
+.card {
+    aspect-ratio: 3/4;
+    width: 100%;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 25px 0px;
+    margin: 10px;
+    width: calc(100% / 6 - 20px);
+    height: 310px;
+}
+
+h6 {
+    text-transform: uppercase;
+    color: #fff;
+    margin-top: 6px;
+}

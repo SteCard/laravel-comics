@@ -21,11 +21,14 @@
         <div class="jumbotron-black">
             <div class="container">
                 <div class="row">
-                    <div class="col">
+                    <div class="col d-flex flex-wrap mt-5">
                         @foreach($products as $product)    
-                            <div class="card-container d-flex flex-wrap">
-
+                        <div class="card-content mx-2 my-2">
+                            <div class="img-container-2">
+                                <img class="card" src="{{ $product['thumb'] }}" alt="{{ $product['title'] }}">
                             </div>
+                            <h6>{{ $product['series'] }}</h6>
+                        </div>
                         @endforeach
                     </div>
                     <div class="col-button ">
@@ -33,20 +36,20 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="jumbotron-blue">
-            <div class="container container-blue">
-                <div class="content">
-                    <ul class="d-flex">
-                        <li :key="index" v-for="(list, index) in lists" class="d-flex align-center">
-                            <div class="img-container">
-                                <img :src="list.immg" :alt="list.lable">
-                            </div>
-                            <h4 class="uppercase"></h4>
-                        </li>
-                    </ul>
+            <!-- <div class="jumbotron-blue">
+                <div class="container container-blue">
+                    <div class="content">
+                        <ul class="d-flex">
+                            <li :key="index" v-for="(list, index) in lists" class="d-flex align-center">
+                                <div class="img-container">
+                                    <img :src="list.immg" :alt="list.lable">
+                                </div>
+                                <h4 class="uppercase"></h4>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
+            </div> -->
         </div>
     </main>
 
