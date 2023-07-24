@@ -65,8 +65,8 @@
                                 </ul>
                             </div>
                         </div>
-                        <span>All Sites Content TM and &copy; 2020 DC Entertainment, unless otherwise <a href="#">noted here</a>. All rightes reserved.</span>
-                        <a href="#">Coockies Settings</a>
+                        <span>All Site Content TM and &copy; 2020 DC Entertainment, unless otherwise <a href="#">noted here</a>. All rights reserved.</span>
+                        <a href="#">Cookies Settings</a>
                     </div>
                 </div>
             </div>
@@ -78,7 +78,7 @@
                             <button class="text-uppercase btn border-primary rounded-0 text-white px-3 py-2">sign-up now!</button>
                         </div>
                         <div class="col-6 d-flex justify-content-end">
-                            <h2 class="text-uppercase follow me-4">follow us</h2>
+                            <h4 class="text-uppercase follow me-4">follow us</h4>
                             <ul class="d-flex list-unstyled">
                                 @foreach($imgs as $obj)
                                     <li class="me-4">

@@ -26,7 +26,7 @@ return [
 
     'objs' => [
         [
-            'label' => 'Character',
+            'label' => 'Characters',
             'link' => '#',
             'acive' => false
         ],
@@ -51,17 +51,7 @@ return [
             'acive' => false
         ],
         [
-            'label' => 'Collectibles',
-            'link' => '#',
-            'acive' => false
-        ],
-        [
             'label' => 'Videos',
-            'link' => '#',
-            'acive' => false
-        ],
-        [
-            'label' => 'Fans',
             'link' => '#',
             'acive' => false
         ],
@@ -88,12 +78,12 @@ return [
 
     'dc' => [
         [
-            'label' => 'Term of Use',
+            'label' => 'Terms of Use',
             'link' => '#',
             'acive' => false
         ],
         [
-            'label' => 'Pravacy policy (New)',
+            'label' => 'Privacy policy (New)',
             'link' => '#',
             'acive' => false
         ],
