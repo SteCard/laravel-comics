@@ -24,7 +24,7 @@
                         <a href="{{ route('home') }}" class="list-group-item fw-bolder mx-3">characters</a>
                     </li>
                     <li class="padding-hr header-li">
-                        <a href="{{ route('home') }}" class="list-group-item fw-bolder mx-3">comics</a>
+                        <a href="{{ route('comics') }}" class="list-group-item fw-bolder mx-3">comics</a>
                     </li>
                     <li class="padding-hr header-li">
                         <a href="{{ route('home') }}" class="list-group-item fw-bolder mx-3">movies</a>
